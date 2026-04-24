@@ -4,73 +4,60 @@ import { Github, ExternalLink, Layers } from 'lucide-react';
 
 const projects = [
   {
-    title: 'ShopCart – E-Commerce Platform',
-    description:
-      'A full-featured e-commerce platform with product listings, cart management, user authentication, payment integration (Razorpay), and an admin dashboard. Built end-to-end with MERN stack.',
-    tags: ['React', 'Node.js', 'MongoDB', 'Express', 'Razorpay', 'JWT'],
-    github: 'https://github.com/yourusername/shopcart',
-    live: 'https://shopcart-demo.vercel.app',
-    category: 'Fullstack',
+    title: 'Sapthagiri Enterprises',
+    description:'Developed a responsive business website for Sapthagiri Enterprises,showcasing their services and portfolio. Implemented a contact form with Email.js for lead generation and integrated Swiper.js for an interactive project gallery.',
+    tags: ['React', 'Node.js','MUI','Email.js','Swiper.js'],
+    github: 'https://github.com/fardeen-574/sapthagiri-enterprises',
+    live: 'https://www.sapthagirienterprises.com/',
+    category: 'Freelance',
     gradient: 'from-primary-600/20 to-purple-600/20',
     accent: '#6366f1',
-    emoji: '🛒',
+    emoji: '💼',
     featured: true,
   },
   {
-    title: 'TaskFlow – Project Manager',
+    title: 'EducareEmSchool',
     description:
-      'A Trello-inspired project management app with drag-and-drop boards, real-time collaboration via Socket.io, and team member assignment. Includes Kanban view.',
-    tags: ['React', 'Socket.io', 'Node.js', 'MongoDB', 'DnD Kit'],
-    github: 'https://github.com/yourusername/taskflow',
-    live: 'https://taskflow-demo.vercel.app',
+      "Built a dynamic educational website for EducareEmSchool, featuring course listings, enrollment forms, and an admin dashboard. Utilized React for the frontend, Node.js for the backend, and integrated Email.js for student inquiries.",
+    tags: ['React', 'Node.js','React UI','Email.js','Typescript'],
+    github: 'https://github.com/fardeen-574/educareEmSchool',
+    live: 'https://www.educareglobalschool.com/',
     category: 'Fullstack',
     gradient: 'from-accent-500/20 to-teal-600/20',
     accent: '#10b981',
-    emoji: '📋',
+    emoji: '🎓',
     featured: true,
   },
   {
-    title: 'BlogSpace – CMS & Blog',
+    title: 'CSS Gradient Generator',
     description:
-      'A full-stack blogging platform with Markdown editor, category filtering, author profiles, comment system, and SEO-optimized rendering.',
-    tags: ['React', 'Express', 'MongoDB', 'Cloudinary', 'Markdown'],
-    github: 'https://github.com/yourusername/blogspace',
-    live: 'https://blogspace-demo.vercel.app',
-    category: 'Fullstack',
+      'A sleek web app that allows users to create and customize CSS gradients with a live preview, color pickers, and code export functionality.',
+    tags: ['React', 'CSS', 'JavaScript'],
+    github: 'https://github.com/fardeen-574/CSS-Gradient-Generator',
+    live: 'https://css-gradient-generator-sigma.vercel.app/',
+    category: 'Frontend',
     gradient: 'from-yellow-500/20 to-orange-600/20',
     accent: '#f59e0b',
-    emoji: '✍️',
+    emoji: '🎨',
     featured: false,
   },
   {
-    title: 'ChatApp – Real-time Messaging',
+    title: 'To-Do List App',
     description:
-      'Real-time chat application with WebSocket support, private & group rooms, message history, and online status indicators.',
-    tags: ['React', 'Socket.io', 'Node.js', 'MongoDB'],
-    github: 'https://github.com/yourusername/chatapp',
-    live: 'https://chatapp-demo.vercel.app',
-    category: 'Fullstack',
+      'A simple yet effective to-do list application with drag-and-drop functionality, due dates, and task categorization. Built with React for the frontend and Node.js with MongoDB for the backend, featuring real-time updates with Socket.io.',
+    tags: ['React', 'Node.js', 'MongoDB', 'Socket.io'],
+    github: 'https://github.com/fardeen-574/To-do-list',
+    live: 'https://to-do-list-rust-three.vercel.app/',
+    category: 'Frontend',
     gradient: 'from-pink-500/20 to-rose-600/20',
     accent: '#ec4899',
-    emoji: '💬',
+    emoji: '📝',
     featured: false,
   },
-  {
-    title: 'WeatherNow – Weather App',
-    description:
-      'Clean weather dashboard using OpenWeather API with 5-day forecasts, location search, and animated weather conditions.',
-    tags: ['React', 'OpenWeather API', 'CSS Modules'],
-    github: 'https://github.com/yourusername/weathernow',
-    live: 'https://weathernow-demo.vercel.app',
-    category: 'Frontend',
-    gradient: 'from-blue-500/20 to-cyan-600/20',
-    accent: '#3b82f6',
-    emoji: '🌤️',
-    featured: false,
-  },
+
 ];
 
-const FILTERS = ['All', 'Fullstack', 'Frontend'];
+const FILTERS = ['All', 'Fullstack', 'Frontend','Freelance'];
 
 const Projects = () => {
   const [filter, setFilter] = useState('All');
@@ -183,7 +170,7 @@ const Projects = () => {
 
       <div className="text-center mt-12">
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/fardeen-574?tab=repositories"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-outline inline-flex items-center gap-2"

@@ -64,7 +64,7 @@ const Navbar = () => {
 
         {/* CTA */}
         <a
-          href="/../../assets/resume.pdf"
+          href="/../../public/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:flex items-center gap-2 px-5 py-2.5 bg-primary-600 hover:bg-primary-500 text-white text-sm font-semibold rounded-xl transition-all duration-300 shadow-lg shadow-primary-900/30 hover:shadow-primary-800/40 hover:-translate-y-0.5"
