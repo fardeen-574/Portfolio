@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Code2 } from 'lucide-react';
-import { Resume } from '../../assets';
+
 
 const navLinks = [
   { label: 'Home', href: '#home' },
@@ -65,7 +65,7 @@ const Navbar = () => {
 
         {/* CTA */}
         <a
-          href={Resume}
+          href="https://drive.google.com/file/d/1DF_eUfBE4SEjZl3WKQ1w4RniLpwSAINp/view"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:flex items-center gap-2 px-5 py-2.5 bg-primary-600 hover:bg-primary-500 text-white text-sm font-semibold rounded-xl transition-all duration-300 shadow-lg shadow-primary-900/30 hover:shadow-primary-800/40 hover:-translate-y-0.5"
@@ -106,10 +106,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href={Resume}
-            target="_blank"
-            rel="noopener noreferrer"
-            download={true}
+            href='/resume.pdf' download='/resume.pdf'
             className="block mt-2 px-4 py-3 bg-primary-600 text-white text-sm font-semibold rounded-xl text-center"
           >
             Download Resume
