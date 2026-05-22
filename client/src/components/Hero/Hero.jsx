@@ -6,7 +6,8 @@ const ROLES = [
   'Frontend Developer',
   'React Developer',
   'Node.js Developer',
-  'UI/UX Enthusiast',
+  'Generative AI Enthusiast',
+  
 ];
 
 const Hero = () => {
