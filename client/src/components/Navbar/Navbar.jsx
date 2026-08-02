@@ -106,10 +106,10 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href='/resume.pdf' download='/resume.pdf'
+            href="https://drive.google.com/file/d/1DF_eUfBE4SEjZl3WKQ1w4RniLpwSAINp/view" download='/resume.pdf'
             className="block mt-2 px-4 py-3 bg-primary-600 text-white text-sm font-semibold rounded-xl text-center"
           >
-            Download Resume
+           Resume
           </a>
         </div>
       </div>
