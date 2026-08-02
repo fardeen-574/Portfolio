@@ -191,6 +191,18 @@ const Hero = () => {
               >
                 🍃 MongoDB
               </div>
+              <div
+                className="absolute top-20 -left-9 px-3 py-1.5 bg-dark-700 border border-white/10 rounded-xl text-xs font-medium text-yellow-400 shadow-xl"
+                style={{ animation: 'float 6s ease-in-out infinite 2s' }}
+              >
+                ☕ Java
+              </div>
+              <div
+                className="absolute bottom-10 -right-8 px-3 py-1.5 bg-dark-700 border border-white/10 rounded-xl text-xs font-medium text-yellow-400 shadow-xl"
+                style={{ animation: 'float 6s ease-in-out infinite 2s' }}
+              >
+               Python
+              </div>
             </div>
 
             {/* Stats floating cards */}
